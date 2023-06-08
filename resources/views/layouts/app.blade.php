@@ -18,7 +18,7 @@
 
     <!-- Scripts -->
     {{-- @vite(['resources/sass/app.scss', 'resources/js/app.js']) --}}
-    @livewireStyles
+    <livewire:styles />
 </head>
 <body>
     <div id="app">
@@ -82,6 +82,6 @@
     </div>
     <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
     <script src="{{ asset("assets/js/bootstrap.bundle.min.js") }}"></script>
-    @livewireScripts
+    <livewire:scripts />
 </body>
 </html>
